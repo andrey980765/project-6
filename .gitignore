@@ -1,0 +1,56 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations (optional: иногда исключают)
+*/migrations/__pycache__/
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Environment variables
+.env
+*.env
+
+# IDE / OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Docker
+*.pid
+*.seed
+*.out
+
+# Coverage / testing
+htmlcov/
+.coverage
+.cache
+coverage.xml
+nosetests.xml
+pytest.xml
+
+# Node (если есть Swagger UI build)
+node_modules/
+dist/
+
+# Python egg metadata
+*.egg-info/
+.eggs/
+
+
